@@ -6,6 +6,8 @@
 
 # Tasks to do in the migration
 
+Some of the following tasks (like version's bump) can be automated by using https://github.com/OCA/odoo-module-migrator.
+
 * Bump module version to `14.0.1.0.0`.
 * Remove any possible migration script from previous version.
 * Squash administrative commits (if any) with the previous commit for reducing commit noise. They are named as "[UPD] README.rst", "[UPD] Update $MODULE.pot", "Update translation files" and similar names, and comes from *OCA-git-bot*, *oca-travis* or *oca-transbot*. **IMPORTANT**: Don't squash legit translation commits, authored by their translators, with the message "Translated using Weblate (...)".
